@@ -4,6 +4,11 @@ def main():
     """
     ゲームを実行する
     """
+    # ユーザ名を入力
+    print('What is your name?')
+    user_name = input('> ')
+    print('Hello, {}!'.format(user_name))
+
     print('Rolling the dice...')
 
     (d1, d2) = (roll_dice(), roll_dice())
