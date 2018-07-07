@@ -10,7 +10,13 @@ def main():
     print('Die 1: {}'.format(d1))
     print('Die 2: {}'.format(d2))
 
-    print('Total value: {}'.format(d1 + d2))
+    total = d1 + d2
+    print('Total value: {}'.format(total))
+
+    # 勝敗を出力
+    result = 'won' if total > 7 else 'lost'
+    print('You {}'.format(result))
+
 
 def roll_dice():
     """
