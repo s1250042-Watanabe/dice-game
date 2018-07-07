@@ -20,7 +20,7 @@ def main():
 
     # 勝敗を出力
     result = 'won' if total > 7 else 'lost'
-    print('You {}'.format(result))
+    print('{} {}!'.format(user_name, result))
 
 
 def roll_dice():
